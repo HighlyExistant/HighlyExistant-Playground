@@ -1,0 +1,2 @@
+# What is this Repository?
+Welcome to the HighlyExistant Playground, this is where I will post various tests on *random* things that I personally find interesting, or algorithms I thought were useful to have implemented. It's important to note these are small projects, done in a variety of different projects, and each one should have a README in case anyone who comes across it also wants to know how to implement it. Here you can find a listing of the things I have done:
