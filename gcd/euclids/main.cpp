@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../gcd_tests.hpp"
 
 // This method of finding the gcd is very fast
 // compared to the naive version, coming to around
@@ -40,6 +41,7 @@ int euclid_gcd(int a, int b) {
 
 int main(int argc, char const *argv[])
 {
+    satisfies_properties(euclid_gcd);
     int a;
     int b;
     printf("PRINT 1ST NUMBER: ");

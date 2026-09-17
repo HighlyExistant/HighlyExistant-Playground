@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "../gcd_tests.hpp"
 
 // This method of finding the gcd is very naive
 // and lends itself to a time complexity of O(min(a,b))
@@ -40,6 +40,7 @@ int naive_gcd(int a, int b) {
 
 int main(int argc, char const *argv[])
 {
+    satisfies_properties(naive_gcd);
     int a;
     int b;
     printf("PRINT 1ST NUMBER: ");
