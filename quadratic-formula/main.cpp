@@ -16,7 +16,6 @@ int solve_quadratic(float a, float b, float c, float &x_0, float &x_1) {
     } else {
         return 0;
     }
-    
 }
 
 int main(int argc, char const *argv[])
